@@ -1,9 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 import * as firebase from 'firebase'
 import 'firebase/firestore';
+import logo from './assets/MoniGrowLogo.png';
 
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
@@ -22,11 +23,23 @@ const dbh = firebase.firestore();
 export default function App() {
   return (
     <View style={styles.container}>
+      {/* MoniGrow Logo */}
+      <Image source={logo} style={styles.logo}/>
+      <TouchableOpacity
+        style={{ backgroundColor: 'blue' }}>
+        <Text style={{ fontSize: 20, color: '#fff' }}>Database</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{ backgroundColor: 'red' }}>
+        <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
+      </TouchableOpacity>
       <Text>Send help</Text>
       <StatusBar style="auto" />
     </View>
   );
 }
+
+
 
 const styles = StyleSheet.create({
   container: {
@@ -34,5 +47,9 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  logo: {
+    width: 305, 
+    height: 159,
   },
 });
