@@ -16,10 +16,19 @@ const firebaseConfig = {
   measurementId: "G-VSW7L2XFSJ"
 };
 
-firebase.initializeApp(firebaseConfig);
+if (!firebase.apps.length) {
+   firebase.initializeApp(firebaseConfig);
+}else {
+   firebase.app(); // if already initialized, use that one
+}
 const dbh = firebase.firestore();
 
+function getPlants() {
+  console.log(dbh.collection("plants").get())
+}
+
 export default function App() {
+  getPlants();
   return (
     <View style={styles.container}>
       <Text>Send help</Text>
