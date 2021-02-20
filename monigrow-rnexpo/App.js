@@ -29,17 +29,41 @@ function getPlants() {
 }
 
 export default function App() {
-  getPlants();
   return (
     <View style={styles.container}>
       {/* MoniGrow Logo */}
       <Image source={logo} style={styles.logo}/>
       <TouchableOpacity
-        style={{ backgroundColor: 'blue' }}>
+        style={{ 
+          backgroundColor: 'blue',
+          width: 130,
+          borderRadius: 4,
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: 40 }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Database</Text>
       </TouchableOpacity>
       <TouchableOpacity
-        style={{ backgroundColor: 'red' }}>
+        style={{ 
+          backgroundColor: 'red',
+          width: 130,
+          borderRadius: 4,
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: 40 }}>
+        <Text style={{ fontSize: 20, color: '#fff' }}>Temperature</Text>
+      </TouchableOpacity>
+      <TouchableOpacity
+        style={{ 
+          backgroundColor: 'purple',
+          width: 130,
+          borderRadius: 4,
+          flexDirection: 'row',
+          justifyContent: 'center',
+          alignItems: 'center',
+          height: 40 }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
