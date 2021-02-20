@@ -42,7 +42,6 @@ export default function App() {
         style={{ backgroundColor: 'red' }}>
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>
-      <Text>Send help</Text>
       <StatusBar style="auto" />
     </View>
   );
