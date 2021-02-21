@@ -22,13 +22,54 @@ if (!firebase.apps.length) {
 }else {
    firebase.app(); // if already initialized, use that one
 }
-const dbh = firebase.firestore();
+const db = firebase.firestore();
 
-function getPlants() {
-  console.log(dbh.collection("plants").get())
+function logPlant() {
+  var docRef = db.collection("plants").doc("672Z9tN7JCmjA4AdiIrl");
+  docRef.get().then((doc) => {
+      if (doc.exists) {
+          console.log("Document data:", doc.data());
+      } else {
+          // doc.data() will be undefined in this case
+          console.log("No such document!");
+      }
+  }).catch((error) => {
+      console.log("Error getting document:", error);
+  });
+}
+
+function logAllPlants() {
+  db.collection("plants")
+    .get()
+    .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+            // doc.data() is never undefined for query doc snapshots
+            console.log(doc.id, " => ", doc.data());
+        });
+    })
+    .catch((error) => {
+        console.log("Error getting documents: ", error);
+    });
+}
+
+async function getAllPlants() {
+  var plantArray = [];
+  await db.collection("plants")
+    .get()
+    .then((querySnapshot) => {
+        querySnapshot.forEach((doc) => {
+            plantArray.push(doc.data());
+        });
+    })
+    .catch((error) => {
+        console.log("Error getting documents: ", error);
+  });
+  return plantArray;
 }
 
 export default function App() {
+  getAllPlants().then(arr => console.log(arr))
+  console.log("hey hey hey")
   return (
     <View style={styles.container}>
       {/* MoniGrow Logo */}
