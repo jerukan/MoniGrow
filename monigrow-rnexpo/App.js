@@ -34,7 +34,8 @@ function HomeScreen({ navigation }) {
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
-          height: 40 }}>
+          height: 40 }}
+          onPress={() => navigation.navigate('Temperature')}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Temperature</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -46,7 +47,8 @@ function HomeScreen({ navigation }) {
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
-          height: 40 }}>
+          height: 40 }}
+          onPress={() => navigation.navigate('pH')}>
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
@@ -54,10 +56,18 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function DatabaseScreen() {
+function TemperatureScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Insert Database here :)</Text>
+      <Text>Insert Temperature Graph here :)</Text>
+    </View>
+  );
+}
+
+function pHScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Insert pH Graph here :)</Text>
     </View>
   );
 }
@@ -70,6 +80,8 @@ export default function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
         <Stack.Screen name="Database" component={PlantTableScreen} />
+        <Stack.Screen name="Temperature" component={TemperatureScreen} />
+        <Stack.Screen name="pH" component={pHScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
