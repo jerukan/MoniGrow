@@ -1,6 +1,6 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
-import { LineChart, Grid } from 'react-native-svg-charts'
+import { LineChart, Grid, XAxis, YAxis } from 'react-native-svg-charts'
 import scaleTime from 'd3-scale';
 
 import * as firebase from 'firebase'
@@ -36,28 +36,80 @@ export default class PhGraph extends React.Component {
   componentDidMount() {
     db.collection("pH").orderBy("time", "desc").limit(this.numFetch)
       .onSnapshot((querySnapshot) => {
-        const snapshotArr = querySnapshot.docs.map( doc => {
+        var snapData = []
+        querySnapshot.docs.forEach( doc => {
           const timeObj = doc.data().time
-          return [timeObj.toDate(), parseFloat(doc.data().pH)]
+          snapData.push({time: timeObj.toDate(), ph: parseFloat(doc.data().pH)})
         })
-        this.setState( { recentData: snapshotArr } )
+        this.setState( { recentData: snapData } )
       });
   }
 
   render() {
     if (this.state.recentData.length) {
+      const contentInset = { top: 10, bottom: 10 }
+      const xAxisHeight = 30
+      const phMin = 0
+      const phMax = 14
       return (
-      <LineChart
-        style={{ height: 200 }}
-        data={this.state.recentData}
-        yAccessor={({ item }) => item[1]}
-        xAccessor={({ index }) => this.state.recentData[index][0]}
-        xScale={scaleTime}
-        svg={{ stroke: 'rgb(134, 65, 244)' }}
-        contentInset={{ top: 20, bottom: 20 }}
-      >
-        <Grid />
-      </LineChart>
+        <View style={{ height: 350, padding: 20, flexDirection: 'row' }}>
+          <YAxis
+            style={{ marginBottom: xAxisHeight }}
+            data={this.state.recentData}
+            yAccessor={({ item }) => item.ph}
+            contentInset={contentInset}
+            svg={{
+                fill: 'grey',
+                fontSize: 10,
+            }}
+            min={phMin}
+            max={phMax}
+            numberOfTicks={10}
+          />
+          <View style={{ flex: 1, marginLeft: 10 }}>
+            <LineChart
+              style={{ flex: 1 }}
+              data={this.state.recentData}
+              xAccessor={({ item }) => item.time}
+              yAccessor={({ item }) => item.ph}
+              xScale={scaleTime}
+              yMin={phMin}
+              yMax={phMax}
+              svg={{ stroke: 'rgb(134, 65, 244)' }}
+              contentInset={contentInset}
+            >
+              <Grid />
+            </LineChart>
+            <XAxis
+              style={{ marginHorizontal: -10, height: xAxisHeight }}
+              data={this.state.recentData}
+              xAccessor={({ item }) => item.time}
+              scale={scaleTime}
+              formatLabel={((value) => {
+                const date = new Date(value)
+                var hrs = date.getHours()
+                var mins = date.getMinutes()
+                var sec = date.getSeconds()
+                if (hrs < 10) {
+                  hrs = "0" + hrs
+                }
+                if (mins < 10) {
+                  mins = "0" + mins
+                }
+                if (sec < 10) {
+                  sec = "0" + sec
+                }
+                return hrs + ":" + mins + ":" + sec
+              })}
+              contentInset={contentInset}
+              numberOfTicks={5}
+              svg={{
+                fontSize: 10,
+                fill: 'black' 
+              }}
+            />
+          </View>
+        </View>
       )
     } else {
       return (
