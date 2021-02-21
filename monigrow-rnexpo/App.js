@@ -5,6 +5,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import { BaseButton } from 'react-native-gesture-handler';
 
+import PlantTableScreen from './PlantTable.js';
 import logo from './assets/MoniGrowLogo.png';
 
 function HomeScreen({ navigation }) {
@@ -50,14 +51,6 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function DetailsScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Insert Database here :)</Text>
-    </View>
-  );
-}
-
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -65,7 +58,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
-        <Stack.Screen name="Database" component={DetailsScreen} />
+        <Stack.Screen name="Database" component={PlantTableScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
