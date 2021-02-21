@@ -8,12 +8,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-Sensor_Sub/storage.rules
-Sensor_Sub/public/scripts/main.js
-Sensor_Sub/public/index.html
-Sensor_Sub/firestore.rules
-Sensor_Sub/firestore.indexes.json
-Sensor_Sub/firebase.json
-Sensor_Sub/database.rules.json
-Sensor_Sub/App.html
-Sensor_Sub/.firebaserc
+
