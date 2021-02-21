@@ -15,13 +15,13 @@ function saveData(data, type) {
             pH: data
         })
     }
-    else if(type === 'at'){
+    else if(type === 'lat'){
         return firebase.firestore().collection('systems/UcHOLsVH3n1vjyGyXY4u/temperature').add({
             time: firebase.firestore.FieldValue.serverTimestamp(),
             temp: data
         })
     }
-    else if(type === 'ap') {
+    else if(type === 'lap') {
         return firebase.firestore().collection('systems/UcHOLsVH3n1vjyGyXY4u/pH').add({
             time: firebase.firestore.FieldValue.serverTimestamp(),
             pH: data
@@ -35,15 +35,17 @@ function createData(num, type) {
     else if(type === 'p') {
         return (Math.random() * ((num+0.5) - (num-0.5)) + num - 0.5).toFixed(1) 
     }
-    else if(type === 'at') {
-        return (Math.random() * ((num+10) - (num-10)) + num - 10).toFixed(1)
+    else if(type === 'lat') {
+        return (Math.random() * ((num+5) - (num-5)) + num - 5).toFixed(1)
     }
-    else if(type === 'ap') {
+    else if(type === 'lap') {
         return (Math.random() * ((num+0.5) - (num-0.5)) + num - 0.5).toFixed(1) 
     }
 }
 var iterator_t;
 var iterator_p;
+var iterator_lap;
+var iterator_lat;
 function startGeneration(type) {
     console.log("test");
     if(type === 't') {
@@ -53,11 +55,11 @@ function startGeneration(type) {
     else if(type === 'p') {
         iterator_p = setInterval( function(){saveData(createData(7, type) , type)}, 5000);
     }
-    else if(type === 'at') {
-        iterator_p = setInterval( function(){saveData(createData(10, type) , type)}, 5000);
+    else if(type === 'lat') {
+        iterator_p = setInterval( function(){saveData(createData(30, type) , type)}, 5000);
     }
-    else if(type === 'ap') {
-        iterator_p = setInterval( function(){saveData(createData(1, type) , type)}, 5000);
+    else if(type === 'lap') {
+        iterator_p = setInterval( function(){saveData(createData(3, type) , type)}, 5000);
     }
 }
 function stopGeneration(type) {
@@ -67,11 +69,11 @@ function stopGeneration(type) {
     else if(type === 'p') {
         clearInterval(iterator_p);
     }
-    else if(type === 'at') {
-        clearInterval(iterator_at);
+    else if(type === 'lat') {
+        clearInterval(iterator_lat);
     }
-    else if(type === 'ap') {
-        clearInterval(iterator_ap);
+    else if(type === 'lap') {
+        clearInterval(iterator_lap);
     }
 }
 /* <button id="starttemp" >Start Generating Temperature Data</button>
@@ -90,18 +92,18 @@ function stopGeneration(type) {
     stopp = document.createElement('button'); 
     stopp.textContent = 'Stop Generating pH Data';
     document.body.append(stopp);
-    startat = document.createElement('button');
-    startat.textContent = 'Start Generating Abnormal Temperature Data';
-    document.body.append(startat);
-    stopat = document.createElement('button');
-    stopat.textContent = 'Stop Generating Abnormal Temperature Data';
-    document.body.append(stopat);
-    startap = document.createElement('button'); 
-    startap.textContent = 'Start Generating Abnormal pH Data';
-    document.body.append(startap);
-    stopap = document.createElement('button'); 
-    stopap.textContent = 'Stop Generating Abnormal pH Data';
-    document.body.append(stopap);
+    startlat = document.createElement('button');
+    startlat.textContent = 'Start Generating Abnormal Temperature Data';
+    document.body.append(startlat);
+    stoplat = document.createElement('button');
+    stoplat.textContent = 'Stop Generating Abnormal Temperature Data';
+    document.body.append(stoplat);
+    startlap = document.createElement('button'); 
+    startlap.textContent = 'Start Generating Abnormal pH Data';
+    document.body.append(startlap);
+    stoplap = document.createElement('button'); 
+    stoplap.textContent = 'Stop Generating Abnormal pH Data';
+    document.body.append(stoplap);
 // const starttempgen = document.getElementById('starttemp');
 // const stoptempgen = document.getElementById('stopttemp');
 // const startphgen = document.getElementById('startph');
@@ -110,10 +112,10 @@ startt.addEventListener("click", function(){startGeneration('t')});
 stopt.addEventListener("click", function(){stopGeneration('t')});
 startp.addEventListener("click", function(){startGeneration('p')});
 stopp.addEventListener("click", function(){stopGeneration('p')});
-startat.addEventListener("click", function(){startGeneration('at')});
-stopat.addEventListener("click", function(){stopGeneration('at')});
-startap.addEventListener("click", function(){startGeneration('ap')});
-stopap.addEventListener("click", function(){stopGeneration('ap')});
+startlat.addEventListener("click", function(){startGeneration('lat')});
+stoplat.addEventListener("click", function(){stopGeneration('lat')});
+startlap.addEventListener("click", function(){startGeneration('lap')});
+stoplap.addEventListener("click", function(){stopGeneration('lap')});
 
 // class Toggle extends React.Component {
 //     constructor(props) {
