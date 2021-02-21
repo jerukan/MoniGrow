@@ -60,18 +60,21 @@ async function getAllPlants() {
   return plantArray;
 }
 
-async function loadTable() {
+function loadTable() {
   // TODO implement this i guess
-  var plantArr = await getAllPlants()
-  console.log(plantArr)
-}
-
-function PlantTableScreen() {
+  var plantArr = getAllPlants()
+  // use this plant array to generate table or something
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Insert Database here :)</Text>
     </View>
-  );
+  )
+}
+
+function PlantTableScreen() {
+  var thing = loadTable()
+  console.log(thing)
+  return thing
 }
 
 export default PlantTableScreen;
