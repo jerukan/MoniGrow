@@ -22,26 +22,12 @@ if (!firebase.apps.length) {
 }
 const db = firebase.firestore();
 
-function logPlant() {
-  var docRef = db.collection("plants").doc("672Z9tN7JCmjA4AdiIrl");
-  docRef.get().then((doc) => {
-    if (doc.exists) {
-        console.log("Document data:", doc.data());
-    } else {
-        // doc.data() will be undefined in this case
-        console.log("No such document!");
-    }
-  }).catch((error) => {
-    console.log("Error getting document:", error);
-  });
-}
-
 function logAllPlants() {
+  // test function to just print out every plant
   db.collection("plants")
     .get()
     .then((querySnapshot) => {
       querySnapshot.forEach((doc) => {
-        // doc.data() is never undefined for query doc snapshots
         console.log(doc.id, " => ", doc.data());
       });
     })
@@ -50,31 +36,28 @@ function logAllPlants() {
   });
 }
 
-async function getAllPlants() {
-  var plantArray = [];
-  var snapshot = await db.collection("plants").get()
-  snapshot.forEach((doc) => {
-    plantArray.push(doc.data());
-  });
-  console.log(plantArray)
-  return plantArray;
-}
+export default class PlantTableScreen extends React.Component {
+  state = {
+      plants: [],
+  };
 
-function loadTable() {
-  // TODO implement this i guess
-  var plantArr = getAllPlants()
-  // use this plant array to generate table or something
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Insert Database here :)</Text>
-    </View>
-  )
-}
+  componentDidMount() {
+    db.collection("plants").get()
+      .then( querySnapshot => querySnapshot.docs.map( doc => doc.data() ) )
+      .then( data => this.setState( { plants: data } ));
+  }
 
-function PlantTableScreen() {
-  var thing = loadTable()
-  console.log(thing)
-  return thing
+  render() {
+    if (this.state.plants.length) {
+      // TODO: PREPARE TABLE HERE
+      console.log(this.state.plants);
+      return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+          <Text>Insert Database here :)</Text>
+        </View>
+      );
+    } else {
+      return <div>Loading...</div>;
+    }
+  }
 }
-
-export default PlantTableScreen;
