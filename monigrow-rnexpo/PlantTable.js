@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Table, Row, Rows } from 'react-native-table-component';
 
 import * as firebase from 'firebase'

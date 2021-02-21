@@ -1,4 +1,5 @@
 import React from 'react'
+import { StyleSheet, Text, View } from 'react-native';
 import { LineChart, Grid } from 'react-native-svg-charts'
 import scaleTime from 'd3-scale';
 
@@ -44,7 +45,8 @@ export default class PhGraph extends React.Component {
   }
 
   render() {
-    return (
+    if (this.state.recentData.length) {
+      return (
       <LineChart
         style={{ height: 200 }}
         data={this.state.recentData}
@@ -56,6 +58,13 @@ export default class PhGraph extends React.Component {
       >
         <Grid />
       </LineChart>
-    )
+      )
+    } else {
+      return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+          <Text>Loading graph...</Text>
+        </View>
+      )
+    }
   }
 }
