@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { Table, Row, Rows } from 'react-native-table-component';
 
 import * as firebase from 'firebase'
@@ -50,7 +50,6 @@ export default class PlantTableScreen extends React.Component {
 
   render() {
     if (this.state.plants.length) {
-      // TODO: PREPARE TABLE HERE
       console.log(this.state.plants);
       const tableHead = ["name", "ph", "humidity", "eletrical conductivity", "light intensity", "O2"]
       const tableData = []
