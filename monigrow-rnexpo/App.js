@@ -5,8 +5,9 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import {LineChart} from 'react-native-charts-wrapper';
 
-import TemperatureGraph from './TemperatureGraph.js';
 import PlantTableScreen from './PlantTable.js';
+import TemperatureGraph from './TemperatureGraph.js';
+import PhGraph from './PhGraph.js';
 import logo from './assets/MoniGrowLogo.png';
 
 function HomeScreen({ navigation }) {
@@ -57,26 +58,6 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function TemperatureScreen() {
-  return (
-    <View style={{flex: 1}}>
-        <View style={styles.container}>
-          <LineChart style={styles.chart}
-            data={{dataSets:[{label: "demo", values: [{y: 1}, {y: 2}, {y: 1}]}]}}
-          />
-        </View>
-      </View>
-  );
-}
-
-function pHScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Insert pH Graph here :)</Text>
-    </View>
-  );
-}
-
 const Stack = createStackNavigator();
 
 export default function App() {
@@ -86,7 +67,7 @@ export default function App() {
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
         <Stack.Screen name="Database" component={PlantTableScreen} />
         <Stack.Screen name="Temperature" component={TemperatureGraph} />
-        <Stack.Screen name="pH" component={pHScreen} />
+        <Stack.Screen name="pH" component={PhGraph} />
       </Stack.Navigator>
     </NavigationContainer>
   );
