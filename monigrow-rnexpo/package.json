@@ -5,7 +5,8 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "eject": "expo eject"
+    "eject": "expo eject",
+    "postinstall": "sh ./fix-rn-web-proptypes-issue.sh"
   },
   "dependencies": {
     "@react-navigation/native": "^5.9.2",
@@ -17,6 +18,7 @@
     "react-dom": "16.13.1",
     "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
     "react-native-gesture-handler": "^1.10.1",
+    "react-native-table-component": "^1.2.1",
     "react-native-web": "~0.13.12"
   },
   "devDependencies": {
