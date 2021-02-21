@@ -14,6 +14,7 @@ function HomeScreen({ navigation }) {
       <Image source={logo} style={styles.logo}/>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'blue',
           width: 130,
           borderRadius: 4,
@@ -26,27 +27,47 @@ function HomeScreen({ navigation }) {
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'red',
           width: 130,
           borderRadius: 4,
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
-          height: 40 }}>
+          height: 40 }}
+          onPress={() => navigation.navigate('Temperature')}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Temperature</Text>
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'purple',
           width: 130,
           borderRadius: 4,
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
-          height: 40 }}>
+          height: 40 }}
+          onPress={() => navigation.navigate('pH')}>
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
+    </View>
+  );
+}
+
+function TemperatureScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Insert Temperature Graph here :)</Text>
+    </View>
+  );
+}
+
+function pHScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Insert pH Graph here :)</Text>
     </View>
   );
 }
@@ -59,6 +80,8 @@ export default function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
         <Stack.Screen name="Database" component={PlantTableScreen} />
+        <Stack.Screen name="Temperature" component={TemperatureScreen} />
+        <Stack.Screen name="pH" component={pHScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -72,7 +95,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 305, 
-    height: 159,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 300, 
+    height: 100,
   },
 });
