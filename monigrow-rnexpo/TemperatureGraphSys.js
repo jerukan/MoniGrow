@@ -29,7 +29,9 @@ export default class TemperatureGraphSys extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      recentData: []
+      recentData: [],
+      rangeMin: 0,
+      rangeMax: 0
     }
     this.numFetch = 50
   }
@@ -47,24 +49,39 @@ export default class TemperatureGraphSys extends React.Component {
     db.collection("plants").doc(`${this.props.route.params.plantID}`).get()
       .then(doc => {
         console.log(doc.data())
-        this.setState( { idealValue: doc.data().temperature } )
+        const tempRng = doc.data().temperature.split(" ")
+        const tempMin = parseFloat(tempRng[0])
+        const tempMax = parseFloat(tempRng[1])
+        this.setState( { rangeMin: tempMin, rangeMax: tempMax } )
       })
   }
 
   render() {
     if (this.state.recentData.length) {
-      const HorizontalLine = (({ y }) => (
+      const HorizontalLineLow = (({ y }) => (
         <Line
             key={ 'zero-axis' }
             x1={ '0%' }
             x2={ '100%' }
-            y1={ y(this.state.idealValue) }
-            y2={ y(this.state.idealValue) }
+            y1={ y(this.state.rangeMin) }
+            y2={ y(this.state.rangeMin) }
             stroke={ 'green' }
             strokeDasharray={ [ 8, 8 ] }
             strokeWidth={ 2 }
         />
-    ))
+      ))
+      const HorizontalLineHigh = (({ y }) => (
+        <Line
+            key={ 'zero-axis' }
+            x1={ '0%' }
+            x2={ '100%' }
+            y1={ y(this.state.rangeMax) }
+            y2={ y(this.state.rangeMax) }
+            stroke={ 'green' }
+            strokeDasharray={ [ 8, 8 ] }
+            strokeWidth={ 2 }
+        />
+      ))
       const contentInset = { top: 10, bottom: 10 }
       const xAxisHeight = 30
       const tempMin = 45
@@ -98,7 +115,8 @@ export default class TemperatureGraphSys extends React.Component {
               contentInset={contentInset}
             >
               <Grid />
-              <HorizontalLine />
+              <HorizontalLineLow />
+              <HorizontalLineHigh />
             </LineChart>
             <XAxis
               style={{ marginHorizontal: -10, height: xAxisHeight }}
