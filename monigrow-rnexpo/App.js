@@ -14,6 +14,7 @@ function HomeScreen({ navigation }) {
       <Image source={logo} style={styles.logo}/>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'blue',
           width: 130,
           borderRadius: 4,
@@ -26,6 +27,7 @@ function HomeScreen({ navigation }) {
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'red',
           width: 130,
           borderRadius: 4,
@@ -37,6 +39,7 @@ function HomeScreen({ navigation }) {
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'purple',
           width: 130,
           borderRadius: 4,
@@ -47,6 +50,14 @@ function HomeScreen({ navigation }) {
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>
       <StatusBar style="auto" />
+    </View>
+  );
+}
+
+function DatabaseScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Insert Database here :)</Text>
     </View>
   );
 }
@@ -72,7 +83,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 305, 
-    height: 159,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 300, 
+    height: 100,
   },
 });
