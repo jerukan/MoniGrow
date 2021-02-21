@@ -1,685 +1,343 @@
 Musa textilis
-
 Medicago sativa
-
 Medicago sativa
-
 Prunus dulcis
-
 Pimpinella anisum
-
 Malus sylvestris
-
 Prunus armeniaca
-
 Areca catechu
-
 Arracacia xanthorhiza
-
 Maranta arundinacea
-
 Cynara scolymus
-
 Helianthus tuberosus
-
 Asparagus officinalis
-
 Persea americona
-
 Pennisetum americanum
-
 Vigna subterranea
-
 Musa paradisiaca
-
 Hordeum vulgare
-
 Phaseolus vulgaris
-
 Phaseolus vigna spp.
-
 Beta vulgaris
-
 Beta vulgaris
-
 Beta vulgaris
-
 Beta vulgaris
-
 Citrus bergamia
-
 Areca catechu
-
 Rubus spp.
-
 Piper nigrum
-
 Acacia mearnsii
-
 Vaccinium spp.
-
 Bertholletia excelsa
-
 Artocarpus altilis
-
 Vicia faba
-
 Vicia faba
-
 Brassica oleracea botrytis
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Brassica oleracea gemmifera
-
 Fagopyrum esculentum
-
 Brassica oleracea capitata
-
 Brassica rapa
-
 Brassica spp.
-
 Theobroma cacao
-
 Cucumis melo
-
 Carum carvi
-
 Elettaria cardamomum
-
 Cynara cardunculus
-
 Ceratonia siliqua
-
 Daucus carota
-
 Daucus carota
-
 Anacardium occidentale
-
 Manihot esculenta
-
 Ricinus communis
-
 Brassica oleracea botrytis
-
 Apium graveolens
-
 Apium graveolens
-
 Sechium edule
-
 Prunus spp.
-
 Castanea sativa
-
 Cicer arietinum
-
 Cichorium intybus
-
 Cichorium intybus
-
 Capsicum spp.
-
 Capsicum spp.
-
 Brassica rapa
-
 Cinnamomum verum
-
 Cymbopogon nardus
-
 Citrus medica
-
 Citrus veticulata
-
 Trifolium spp.
-
 Trifolium spp.
-
 Syzygium aromaticum
-
 Theobroma cacao
-
 Cocos nucifera
-
 Colocasia spp.; Xanthosoma spp.
-
 Coffee spp.
-
 Cola spp.
-
 Brassica napus
-
 Zea mays
-
 Zea mays
-
 Zea mays
-
 Valerianella locusta
-
 Gossypium spp.
-
 Gossypium spp.
-
 Vigna unguiculata
-
 Vigna unguiculata
-
 Vaccinium spp.
-
 Lepidium sativum
-
 Cucumis sativus
-
 Ribes spp.
-
 Annona reticulata
-
 Colocasia esculenta
-
 Phoenix dactylifera
-
 Moringa oleifera
-
 Phaseolus spp.
-
 Vicia faba
-
 Capsicum spp.
-
 Allium sativum
-
 Allium cepa
-
 Pisum sativum
-
 Capsicum spp.
-
 Triticum durum
-
 Sorghum bicolor
-
 Vigna subterranea
-
 Xanthosoma spp.; Colocasia spp.
-
 Solanum melongena
-
 Cichorium endivia
-
 Lygeum spartum
-
 Foeniculum vulgare
-
 Trigonella foenumgraecum
-
 Ficus carica
-
 Corylus avellana
-
 Furcraea macrophylla
-
 Linum usitatissimum
-
 Linum usitatissimum
-
 Beta vulgaris
-
 Phormium tenax
-
 Allium sativum
-
 Allium sativum
-
 Pelargonium spp.; Geranium spp.
-
 Zingiber officinalis
-
 Ribes spp.
-
 Langenaria spp; Cucurbita spp.
-
 Cicer arietinum
-
 Citrus paradisi
-
 Vitis vinifera
-
 Vitis vinifera
-
 Vitis vinifera
-
 Vitis vinifera
-
 Lygeum spartum
-
 Dactylis glomerata
-
 Sorghum bicolor
-
 Allium sativum
-
 Allium cepa
-
 Arachis hypogaea
-
 Psidium guajava
-
 Sorghum bicolor
-
 Corylus avellana
-
 Cannabis sativa
-
 Musa textilis
-
 Cannabis sativa
-
 Crotalaria juncea
-
 Agave fourcroydes
-
 Lawsonia inermis
-
 Humulus lupulus
-
 Vicia faba
-
 Armoracia rusticana
-
 Zea mays
-
 Indigofera tinctoria
-
 Jasminum spp.
-
 Helianthus tuberosus
-
 Corchorus spp.
-
 Sorghum bicolor
-
 Brassica oleracea acephala
-
 Ceiba pentandra
-
 Hibiscus cannabinus
-
 Brassica oleracea gongylodes
-
 Lavandula spp.
-
 Allium ampeloprasum
-
 Citrus limon
-
 Cymbopogon citratus
-
 Lens culinaris
-
 Lespendeza spp.
-
 Lactuca sativa
-
 Glycyrrhiza glabra
-
 Citrus aurantifolia
-
 Citrus limetta
-
 Linum usitatissimum
-
 Litchi chinensis
-
 Eriobotrya japonica
-
 Lupinus spp.
-
 Macadamia spp.
-
 Myristica fragrans
-
 Agave atrovirens
-
 Zea mays
-
 Zea mays
-
 Zea mays
-
 Zea mays
-
 Citrus reticulata
-
 Beta vulgaris
-
 Mangifera indica
-
 Musa textilis
-
 Manihot esculenta
-
 Mixture of Triticum spp.; Secale cereale
-
 Mespilus germanica
-
 Cucumis melo
-
 Penicum miliaceum
-
 Pennisetum americanum
-
 Sorghum bicolor
-
 Pennisetum americanum
-
 Eleusine coracana
-
 Setaria italica
-
 Echinochloa crusgalli
-
 Pennisetum americanum
-
 Pennisetum americanum; Eleusine coracana; Sorghum bicolor
-
 Mentha spp.
-
 Morus spp.
-
 Morus alba
-
 Agaricus spp.; Pleurotus spp. Volvariella
-
 Brassica nigra; Sinapis alba
-
 Prunus persica
-
 Phormium tenax
-
 Guizotia abyssinica
-
 Myristica fragrans
-
 Avena spp.
-
 Avena spp.
-
 Elaeis guineensis
-
 Abelmoschus esculentus
-
 Olea europea
-
 Allium cepa
-
 Allium cepa
-
 Allium cepa
-
 Papaver somniferum
-
 Citrus sinensis
-
 Citrus aurantium
-
 Dactylis glomerata
-
  
-
 Elaeis guineensis
-
 Metroxylon spp.
-
 Borassus flabellifer
-
 Carica papaya
-
 Pastinaca sativa
-
 Prunus persica
-
 Arachis hypogaea
-
 Pyrus communis
-
 Pisum sativum
-
 Pisum sativum
-
 Carya illinoensis
-
 Piper nigrum
-
 Capsicum spp.
-
 Capsicum annuum
-
 Diospyros kaki; Diospyros virginiana
-
 Cajanus cajan
-
 Capsicum annuum
-
 Ananas comosus
-
 Pistacia spp.
-
 Musa paradisiaca
-
 Prunus domestica
-
 Punica granatum
-
 Citrus grandis
-
 Papaver somniferum
-
 Solamum tuberosum
-
 Ipomoea batatas
-
 Prunus domestica
-
 Cucurbita spp.
-
 Cucurbita spp.
-
 Chrysanthemum cineraraiefolium
-
 Aspidosperma spp.
-
 Macadamia spp.
-
 Cydonia oblonga
-
 Cinchona spp.
-
 Chenopodium quinoa
-
 Raphanus sativus (including Cochlearia armoracia)
-
 Boehmeria nivea
-
 Brassica napus
-
 Rubus spp.
-
 Beta vulgaris
-
 Brassica oleracea capitata
-
 Agrostis spp.
-
 Boehmeria nivea
-
 Rheum spp.
-
 Oryza sativa; Oryza glaberrima
-
 Rose spp.
-
 Hevea brasiliensis
-
 Brassica napus
-
 Secale cereale
-
 Lolium spp.
-
 Carthamus tinctorius
-
 Metroxylon spp.
-
 Onobrychis viciifolia
-
 Valerianella locusta
-
 Tragopogon porrifolius
-
 Achras sapota
-
 Citrus reticulata
-
 Brassica ileracea capitata
-
 Scorzonera hispanica
-
 Sesamum indicum
-
 Butyrospermum paradoxum
-
 Agave sislana
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Sorghum bicolor
-
 Citrus aurantifolia
-
 Glycine max
-
 Glycine max
-
 Triticum spelta
-
 Spinacia oleracea
-
 Hordeum vulgare
-
 Secale cereale
-
 Triticum aestivum
-
 Triticum aestivum
-
 Triticum aestivum
-
 Brassica oleracea gemmifera
-
 Cucurbita spp.
-
 Fragaria spp.
-
 Sorghum bicolor Sudanense
-
 Beta vulgaris
-
 Beta vulgaris
-
 Beta vulgaris
-
 Saccharum officinarum
-
 Saccharum officinarum
-
 Saccharum officinarum
-
 Helianthus annuus
-
 Helianthus annuus
-
 Crotalaria juncea
-
 Brassica napus
-
 Brassica napus
-
 Zea mays
-
 Citrus limetta
-
 Capsicum annuum
-
 Iopmoea batatas
-
 Sorghum bicolor
-
 Citrus reticulata
-
 Xanthosoma sagittifolium
-
 Manihot esculenta
-
 Colocasia esculenta
-
 Camellia sinensis
-
 Eragrostis abyssinica
-
 Phleum pratense
-
 Nicotiana tabacum
-
 Lycopersicum esculentum
-
 Lotus spp.
-
 Aleurites spp.
-
 Brassica rapa
-
 Brassica rapa
-
 Urena lobata
-
 Vanilla planifolia
-
 Vicia sativa
-
 Juglans spp.
-
 Citrullus lanatus
-
 Acacia mearnsii
-
 Triticum spp.
-
 Brassica oleracea capitata
-
 Hordeum spp.
-
 Secale cereale
-
 Triticum aestivum
-
 Triticum aestivum
-
 Triticum aestivum
-
 Dioscorea spp.
-
 Ilex paraguariensis
