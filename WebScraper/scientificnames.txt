@@ -24,7 +24,6 @@ Elettaria cardamomum
 Cynara cardunculus
 Ceratonia siliqua
 Anacardium occidentale
-Ricinus communis
 Apium graveolens
 Apium graveolens
 Sechium edule
@@ -52,9 +51,6 @@ Colocasia esculenta
 Phoenix dactylifera
 Moringa oleifera
 Vicia faba
-Capsicum spp.
-Allium sativum
-Allium cepa
 Capsicum spp.
 Triticum durum
 Solanum melongena
@@ -175,7 +171,6 @@ Vanilla planifolia
 Juglans spp.
 Citrullus lanatus
 Triticum spp.
-Brassica oleracea capitata
 Hordeum spp.
 Secale cereale
 Triticum aestivum
@@ -221,4 +216,4 @@ Sorghum bicolor
 Brassica rapa
 Acacia mearnsii
 Triticum aestivum
-Triticum aestivum
+

@@ -13,12 +13,11 @@ f = open("WebScraper\commonnames.txt", "r")
 for line in f:
     lines.append(line)
 f.close()
-
+temp = []
 # Scrapes pfaf.org to find optimal ph and temperature levels for each crop
 class PFAFScrape:
     def __init__(self):
         self.driver = webdriver.Chrome("C:\Windows\chromedriver.exe")
-        self.temp = []
     def parse(self):
         self.driver.get('https://pfaf.org/')
 #        for name in cnames:
@@ -41,21 +40,40 @@ class PFAFScrape:
                 #self.driver.find_element_by_name('ctl00$ContentPlaceHolder1$imgbtnSearch').click()
                 try:
                     elem = self.driver.find_element_by_xpath('//*[@id="ContentPlaceHolder1_gvresults"]/tbody/tr[2]/td[5]')
-                    self.temp.append(elem.text)
+                    temp.append(elem.text)
                 except Exception:
-                    self.temp.append("-")
+                    temp.append("-")
                     continue
                     
 p = PFAFScrape()
 p.parse()
-
+counter = 0
+indices = []
+print("test")
 f = open("WebScraper\degree.txt", "w")
-for i in p.temp:
+for i in temp:
+    counter+=1
     if i is "-":
-        f.write("NULL")
+        indices.append(counter)
     else:
-        mintemp = 10*i.split("-")[0] - 60
-        maxtemp = 10*i.split("-")[1] - 50
-        f.write(str(mintemp) + "-" + str(maxtemp))
-    f.write(i)
+        mintemp = 10*int(i.split("-")[0]) - 60
+        maxtemp = 10*int(i.split("-")[1]) - 50
+        f.write(str(mintemp) + "-" + str(maxtemp) + '\n')
 f.close()
+
+lines = []
+f = open("WebScraper\commonnames.txt", "r")
+for line in f:
+    lines.append(line)
+f.close()
+
+counter = 0
+f = open("WebScraper\commonnames.txt", "w")
+for line in lines:
+    counter += 1
+    if counter in indices:
+        continue
+    else:
+        f.write(line)
+f.close()
+

@@ -1,13 +1,8 @@
-Almond
 Apple
-Apricot
 Arracha
 Arrowroot
-Artichoke
 Asparagus
-Avocado
 Bambara
-Banana
 Barley
 Bergamot
 Betel nut
@@ -15,49 +10,30 @@ Blackberry
 Black pepper
 Blueberry
 Brazil nut
-Breadfruit
-Broom millet
 Broom sorghum
 Brussels sprouts
-Buckwheat
 Cardamom
 Cardoon
-Carob
 Cashew nuts
-Castor bean
 Celeriac
 Celery
-Chayote
 Chesnut
 Chicory
 Chinese cabbage
 Cinnamon
 Citronella
-Citron
-Clementine
 Clove
-Coconut
 Cocoyam
 Coffee
-Cola
 Corn salad
-Cotton
 Cowpea
 Cranberry
 Cress
-Cucumber
 Currants
 Custard apple
-Dasheen
-Dates
 Drumstick tree
 broad bean
-chilli
-garlic
-onion
-pepper
 Durum wheat
-Eggplant
 Endive
 Esparto grass
 Fennel
@@ -69,11 +45,8 @@ Ginger
 Gooseberry
 Gourd
 Grapefruit
-Grape
 Grass esparto
-Guava
 Hemp fibre
-Henequen
 Henna
 Hop
 Horseradish
@@ -95,11 +68,8 @@ Lettuce
 Liquorice
 Litchi
 Loquat
-Lupine
-Maguey
 Mango
 Medlar
-Mint
 Mushrooms
 Mustard
 Nectarine
@@ -107,15 +77,12 @@ Oil palm
 Okra
 Olive
 Opium
-Orange
 Orchard grass
 Palmyra palm
 Parsnip
 Peach
-Pear
 Pecan nut
 Persimmon
-Pigeon pea
 Pimento
 Pineapple
 Pistachio nut
@@ -123,15 +90,11 @@ Plantain
 Pomegranate
 Pomelo
 Potato
-Pyrethum
 Quebracho
 Quince
 Quinine
 Quinoa
-Radish
-Raspberry
 Red beet
-Red cabbage
 Redtop
 Rhubarb
 Rice
@@ -143,28 +106,21 @@ Sainfoin
 Salsify
 Sapodilla
 Satsuma
-Savoy cabbage
 Scorzonera
 Sesame
 Shea butter
 Sisal
-Sorghum
 Sour lime
 Soybean
 Spelt
 Spinach
 Squash
-Strawberry
 Sudan grass
-Sugar beet
 Sunhemp
-Sweet corn
 Sweet lime
 Sweet pepper
-Sweet potato
 Tannia
 Taro
-Tea
 Teff
 Timothy
 Tobacco
@@ -172,30 +128,19 @@ Tomato
 Trefoil
 Tung tree
 Vanilla
-Walnut
 Watermelon
-Wheat
 White cabbage
-barley
 rye
-wheat
-Yams
 Yerba mate
-Anise
 Bean
 Beet
 Broccoli
 Cabbage
-Cantaloupe
 Caraway
 Carrot
-Cauliflower
-Chilly
 Cottonseed
 Garlic
-Grass
 Hempseed
-Hemp
 Lime
 Mace
 Maize
@@ -211,11 +156,8 @@ Pepper
 Plum
 Poppy
 Prune
-Pumpkin
 Ramie
-Rhea
 Rutabaga
-Ryegrass
 Safflower
 Salad
 Sprouts
