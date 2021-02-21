@@ -50,7 +50,6 @@ export default class PlantTableScreen extends React.Component {
 
   render() {
     if (this.state.plants.length) {
-      // TODO: PREPARE TABLE HERE
       console.log(this.state.plants);
       const tableHead = ["name", "ph", "humidity", "eletrical conductivity", "light intensity", "O2"]
       const tableData = []
