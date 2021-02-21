@@ -101,7 +101,7 @@ class HomeScreenSys extends React.Component {
   }
 }
 
-function HomeScreen({ navigation }) {
+/*function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
       <Image source={logo} style={styles.logo}/>
@@ -147,7 +147,7 @@ function HomeScreen({ navigation }) {
       <StatusBar style="auto" />
     </View>
   );
-}
+}*/
 
 const Stack = createStackNavigator();
 
@@ -155,7 +155,6 @@ export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
-        <Stack.Screen name="MoniGrow" component={HomeScreen} />
         <Stack.Screen name="Home" component={withNavigation(HomeScreenSys)} />
         <Stack.Screen name="SysScreen" component={SystemScreen} />
         <Stack.Screen name="Database" component={PlantTableScreen} />
