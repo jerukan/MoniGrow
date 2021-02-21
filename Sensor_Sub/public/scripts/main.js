@@ -18,7 +18,7 @@ function saveData(data, type) {
 }
 function createData(num, type) {
     if(type === 't') {
-        return (Math.random() * ((num+2) - (num-2)) + num - 2).toFixed(1)
+        return (Math.random() * ((num+0.7) - (num-0.7)) + num - 0.7).toFixed(1)
     }
     else if(type === 'p') {
         return (Math.random() * ((num+0.5) - (num-0.5)) + num - 0.5).toFixed(1) 
