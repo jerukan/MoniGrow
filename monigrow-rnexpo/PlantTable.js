@@ -50,7 +50,6 @@ export default class PlantTableScreen extends React.Component {
 
   render() {
     if (this.state.plants.length) {
-      console.log(this.state.plants);
       const tableHead = ["name", "ph", "humidity", "eletrical conductivity", "light intensity", "O2"]
       const tableData = []
       this.state.plants.forEach(
@@ -59,7 +58,6 @@ export default class PlantTableScreen extends React.Component {
           tableData.push(row)
         }
       )
-      console.log(tableData)
       return (
         <View style={styles.container}>
           <Table borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
