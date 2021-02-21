@@ -1,10 +1,11 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View, Button } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View, AppRegistry, processColor } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import { BaseButton } from 'react-native-gesture-handler';
+import {LineChart} from 'react-native-charts-wrapper';
 
+import TemperatureGraph from './TemperatureGraph.js';
 import PlantTableScreen from './PlantTable.js';
 import logo from './assets/MoniGrowLogo.png';
 
@@ -58,9 +59,13 @@ function HomeScreen({ navigation }) {
 
 function TemperatureScreen() {
   return (
-    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
-      <Text>Insert Temperature Graph here :)</Text>
-    </View>
+    <View style={{flex: 1}}>
+        <View style={styles.container}>
+          <LineChart style={styles.chart}
+            data={{dataSets:[{label: "demo", values: [{y: 1}, {y: 2}, {y: 1}]}]}}
+          />
+        </View>
+      </View>
   );
 }
 
@@ -80,7 +85,7 @@ export default function App() {
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
         <Stack.Screen name="Database" component={PlantTableScreen} />
-        <Stack.Screen name="Temperature" component={TemperatureScreen} />
+        <Stack.Screen name="Temperature" component={TemperatureGraph} />
         <Stack.Screen name="pH" component={pHScreen} />
       </Stack.Navigator>
     </NavigationContainer>
@@ -100,4 +105,7 @@ const styles = StyleSheet.create({
     width: 300, 
     height: 100,
   },
+  chart: {
+    flex: 1
+  }
 });
