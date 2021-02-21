@@ -50,14 +50,16 @@ export default class PlantTableScreen extends React.Component {
 
   render() {
     if (this.state.plants.length) {
-      const tableHead = ["name", "ph", "humidity", "eletrical conductivity", "light intensity", "O2"]
+      //console.log(this.state.plants);
+      const tableHead = ["name", "ph", "temperature"]
       const tableData = []
       this.state.plants.forEach(
         plant => {
-          const row = [plant.name, plant.ph, plant.humidity, plant.e_conduct, plant.d_light_intense, plant.o2]
+          const row = [plant.name, plant.ph, plant.temperature]
           tableData.push(row)
         }
       )
+      //console.log(tableData)
       return (
         <View style={styles.container}>
           <Table borderStyle={{borderWidth: 2, borderColor: '#c8e1ff'}}>
