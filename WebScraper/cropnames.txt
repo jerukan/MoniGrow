@@ -1,0 +1,2057 @@
+Abaca (Manila hemp)
+
+Musa textilis
+
+2.2.4.1
+
+Alfalfa for fodder
+
+Medicago sativa
+
+1.7.1.1
+
+Alfalfa for seed
+
+Medicago sativa
+
+1.8.2
+
+Almond
+
+Prunus dulcis
+
+2.1.7.1
+
+Anise seeds
+
+Pimpinella anisum
+
+1.1.4.3.4
+
+Apple
+
+Malus sylvestris
+
+2.1.2.1
+
+Apricot
+
+Prunus armeniaca
+
+2.1.3.1
+
+Areca (betel nut)
+
+Areca catechu
+
+2.2.7.6
+
+Arracha
+
+Arracacia xanthorhiza
+
+1.2.9
+
+Arrowroot
+
+Maranta arundinacea
+
+1.2.5
+
+Artichoke
+
+Cynara scolymus
+
+1.5.1.0.1
+
+Artichoke, Jerusalem
+
+Helianthus tuberosus
+
+1.7.5.0.2
+
+Asparagus
+
+Asparagus officinalis
+
+1.5.1.0.2
+
+Avocado
+
+Persea americona
+
+2.1.6.0.1
+
+Bajra (millet)
+
+Pennisetum americanum
+
+1.1.5.1.2
+
+Bambara groundnuts
+
+Vigna subterranea
+
+1.3.9
+
+Banana
+
+Musa paradisiaca
+
+2.1.6.0.2
+
+Barley
+
+Hordeum vulgare
+
+1.1.4
+
+Bean, dry, edible
+
+Phaseolus vulgaris
+
+1.3.1
+
+Bean, harvested green
+
+Phaseolus vigna spp.
+
+1.5.4.1
+
+Beet, fodder (mangel)
+
+Beta vulgaris
+
+1.7.5.0.5
+
+Beet, red
+
+Beta vulgaris
+
+1.5.3.5
+
+Beet, sugar
+
+Beta vulgaris
+
+1.4.1.2
+
+Beet, sugar for fodder
+
+Beta vulgaris
+
+1.7.5.0.6
+
+Bergamot
+
+Citrus bergamia
+
+2.1.1.6
+
+Betel nut
+
+Areca catechu
+
+2.2.7.6
+
+Blackberry
+
+Rubus spp.
+
+2.1.5.7
+
+Black pepper
+
+Piper nigrum
+
+2.2.3.1
+
+Black wattle
+
+Acacia mearnsii
+
+2.2.5.2
+
+Blueberry
+
+Vaccinium spp.
+
+2.1.5.1
+
+Brazil nut
+
+Bertholletia excelsa
+
+2.1.7.6
+
+Breadfruit
+
+Artocarpus altilis
+
+2.1.6.0.3
+
+Broad bean, dry
+
+Vicia faba
+
+1.3.2
+
+Broad bean, harvested green
+
+Vicia faba
+
+1.5.4.3
+
+Broccoli and cauliflower
+
+Brassica oleracea botrytis
+
+1.5.5.1
+
+Broom millet
+
+Sorghum bicolor
+
+1.4.5.4
+
+Broom sorghum
+
+Sorghum bicolor
+
+1.4.5.4
+
+Brussels sprouts
+
+Brassica oleracea gemmifera
+
+1.5.1.0.3
+
+Buckwheat
+
+Fagopyrum esculentum
+
+1.1.9
+
+Cabbage (red, white, Savoy)
+
+Brassica oleracea capitata
+
+1.5.1.0.4
+
+Cabbage, Chinese
+
+Brassica rapa
+
+1.5.1.0.7
+
+Cabbage, for fodder
+
+Brassica spp.
+
+1.7.5.0.1
+
+Cacao (cocoa)
+
+Theobroma cacao
+
+2.2.1.2
+
+Cantaloupe and other melons
+
+Cucumis melo
+
+1.5.2.0.1
+
+Caraway seeds
+
+Carum carvi
+
+1.4.3.4
+
+Cardamom
+
+Elettaria cardamomum
+
+2.2.3.7
+
+Cardoon
+
+Cynara cardunculus
+
+1.5.1.1.5
+
+Carob
+
+Ceratonia siliqua
+
+2.1.6.1.5
+
+Carrot, edible
+
+Daucus carota
+
+1.5.3.1
+
+Carrot, for fodder
+
+Daucus carota
+
+1.7.5.1.0
+
+Cashew nuts
+
+Anacardium occidentale
+
+2.1.7.2
+
+Cassava (manioc)
+
+Manihot esculenta
+
+1.2.3
+
+Castor bean
+
+Ricinus communis
+
+1.4.2.1.0
+
+Cauliflower and broccoli
+
+Brassica oleracea botrytis
+
+1.5.5.1
+
+Celeriac
+
+Apium graveolens
+
+1.5.3.8
+
+Celery
+
+Apium graveolens
+
+1.5.3.8
+
+Chayote
+
+Sechium edule
+
+1.5.2.1.2
+
+Cherry (including sour)
+
+Prunus spp.
+
+2.1.3.2
+
+Chesnut
+
+Castanea sativa
+
+2.1.7.4
+
+Chickpea (gram pea)
+
+Cicer arietinum
+
+1.3.4
+
+Chicory
+
+Cichorium intybus
+
+1.4.5.2
+
+Chicory for greens
+
+Cichorium intybus
+
+1.5.1.0.6
+
+Chilly, dry
+
+Capsicum spp.
+
+1.4.3.1
+
+Chilly, fresh
+
+Capsicum spp.
+
+1.5.2.0.2
+
+Chinese cabbage
+
+Brassica rapa
+
+1.5.1.0.7
+
+Cinnamon
+
+Cinnamomum verum
+
+2.2.3.2
+
+Citronella
+
+Cymbopogon nardus
+
+2.2.7.1
+
+Citron
+
+Citrus medica
+
+2.1.1.6
+
+Clementine
+
+Citrus veticulata
+
+2.1.1.2
+
+Clover for fodder
+
+Trifolium spp.
+
+1.7.1.2
+
+Clover for seed
+
+Trifolium spp.
+
+1.8.3
+
+Clove
+
+Syzygium aromaticum
+
+2.2.3.3
+
+Cocoa (cacao)
+
+Theobroma cacao
+
+2.2.1.2
+
+Coconut
+
+Cocos nucifera
+
+2.2.2.1
+
+Cocoyam
+
+Colocasia spp.; Xanthosoma spp.
+
+1.2.8
+
+Coffee
+
+Coffee spp.
+
+2.2.1.1
+
+Cola
+
+Cola spp.
+
+2.2.1.6
+
+Colza (rapeseed)
+
+Brassica napus
+
+1.4.2.0.5
+
+Corn (maize)
+
+Zea mays
+
+1.1.3
+
+Corn (maize), for silage
+
+Zea mays
+
+1.7.3.1
+
+Corn (sweet)
+
+Zea mays
+
+1.5.5.2
+
+Corn salad
+
+Valerianella locusta
+
+1.5.1.1.5
+
+Cotton
+
+Gossypium spp.
+
+1.4.4.1
+
+Cottonseed
+
+Gossypium spp.
+
+1.4.2.0.8
+
+Cowpea
+
+Vigna unguiculata
+
+1.3.6
+
+Cowpea, harvested green
+
+Vigna unguiculata
+
+1.5.4.3
+
+Cranberry
+
+Vaccinium spp.
+
+2.1.5.2
+
+Cress
+
+Lepidium sativum
+
+1.5.1.0.8
+
+Cucumber
+
+Cucumis sativus
+
+1.5.2.0.3
+
+Currants
+
+Ribes spp.
+
+2.1.5.3
+
+Custard apple
+
+Annona reticulata
+
+2.1.6.0.4
+
+Dasheen
+
+Colocasia esculenta
+
+1.2.8
+
+Dates
+
+Phoenix dactylifera
+
+2.1.6.0.5
+
+Drumstick tree
+
+Moringa oleifera
+
+2.2.3.8
+
+Dry, bean, edible
+
+Phaseolus spp.
+
+1.3.1
+
+Dry broad bean
+
+Vicia faba
+
+1.3.2
+
+Dry chilli
+
+Capsicum spp.
+
+1.4.3.1
+
+Dry garlic
+
+Allium sativum
+
+1.2.7
+
+Dry onion
+
+Allium cepa
+
+1.2.6
+
+Dry pea, edible
+
+Pisum sativum
+
+1.3.3
+
+Dry pepper
+
+Capsicum spp.
+
+1.4.3.1
+
+Durum wheat
+
+Triticum durum
+
+1.1.1.1.1
+
+Durra (sorghum)
+
+Sorghum bicolor
+
+1.1.5.2
+
+Earth pea (bambara groundnut)
+
+Vigna subterranea
+
+1.3.9
+
+Edo (eddoe)
+
+Xanthosoma spp.; Colocasia spp.
+
+1.2.8
+
+Eggplant
+
+Solanum melongena
+
+1.5.2.0.4
+
+Endive
+
+Cichorium endivia
+
+1.5.1.0.9
+
+Esparto grass
+
+Lygeum spartum
+
+1.4.5.4
+
+Fennel
+
+Foeniculum vulgare
+
+1.5.1.1.5
+
+Fenugreek
+
+Trigonella foenumgraecum
+
+1.3.9
+
+Fig
+
+Ficus carica
+
+2.1.6.0.6
+
+Filbert (hazelnut)
+
+Corylus avellana
+
+2.1.7.5
+
+Fique
+
+Furcraea macrophylla
+
+2.2.4.6
+
+Flax for fibre
+
+Linum usitatissimum
+
+1.4.4.2
+
+Flax for oil seed (linseed)
+
+Linum usitatissimum
+
+1.4.2.0.3
+
+Fodder beet (mangel)
+
+Beta vulgaris
+
+1.7.5.0.5
+
+Formio (New Zealand flax)
+
+Phormium tenax
+
+2.2.4.4
+
+Garlic, dry
+
+Allium sativum
+
+1.2.7
+
+Garlic, green
+
+Allium sativum
+
+1.5.3.2
+
+Geranium
+
+Pelargonium spp.; Geranium spp.
+
+1.4.3.2
+
+Ginger
+
+Zingiber officinalis
+
+2.2.3.4
+
+Gooseberry
+
+Ribes spp.
+
+2.1.5.4
+
+Gourd
+
+Langenaria spp; Cucurbita spp.
+
+1.5.2.0.5
+
+Gram pea (chickpea)
+
+Cicer arietinum
+
+1.3.4
+
+Grapefruit
+
+Citrus paradisi
+
+2.1.1.4
+
+Grape
+
+Vitis vinifera
+
+2.1.4
+
+Grapes for raisins
+
+Vitis vinifera
+
+2.1.4.3
+
+Grapes for table use
+
+Vitis vinifera
+
+2.1.4.2
+
+Grapes for wine
+
+Vitis vinifera
+
+2.1.4.1
+
+Grass esparto
+
+Lygeum spartum
+
+1.4.5.4
+
+Grass, orchard
+
+Dactylis glomerata
+
+1.7.2.1
+
+Grass, Sudan
+
+Sorghum bicolor
+
+1.7.2.1
+
+Green garlic
+
+Allium sativum
+
+1.5.3.2
+
+Green onion
+
+Allium cepa
+
+1.5.3.3
+
+Groundnut (peanut)
+
+Arachis hypogaea
+
+1.4.2.0.1
+
+Guava
+
+Psidium guajava
+
+2.1.6.0.7
+
+Guinea corn (sorghum)
+
+Sorghum bicolor
+
+1.1.5.2
+
+Hazelnut (filbert)
+
+Corylus avellana
+
+2.1.7.5
+
+Hemp fibre
+
+Cannabis sativa
+
+1.4.4.3
+
+Hemp, Manila (abaca)
+
+Musa textilis
+
+2.2.4.1
+
+Hempseed
+
+Cannabis sativa
+
+1.4.2.1.1
+
+Hemp, sunn
+
+Crotalaria juncea
+
+1.4.4.5
+
+Henequen
+
+Agave fourcroydes
+
+2.2.4.2
+
+Henna
+
+Lawsonia inermis
+
+1.4.5.4
+
+Hop
+
+Humulus lupulus
+
+2.2.1.4
+
+Horse bean
+
+Vicia faba
+
+1.3.2
+
+Horseradish
+
+Armoracia rusticana
+
+1.5.3.8
+
+Hybrid maize
+
+Zea mays
+
+1.1.3.1
+
+Indigo
+
+Indigofera tinctoria
+
+1.4.5.4
+
+Jasmine
+
+Jasminum spp.
+
+2.2.6.2
+
+Jerusalem artichoke
+
+Helianthus tuberosus
+
+1.7.5.0.2
+
+Jute
+
+Corchorus spp.
+
+1.4.4.4
+
+Jowar (sorghum)
+
+Sorghum bicolor
+
+1.1.5.2
+
+Kale
+
+Brassica oleracea acephala
+
+1.5.1.1.0
+
+Kapok
+
+Ceiba pentandra
+
+2.2.4.3
+
+Kenaf
+
+Hibiscus cannabinus
+
+1.4.4.5
+
+Kohlrabi
+
+Brassica oleracea gongylodes
+
+1.5.3.6
+
+Lavender
+
+Lavandula spp.
+
+1.4.3.2
+
+Leek
+
+Allium ampeloprasum
+
+1.5.1.1.1
+
+Lemon
+
+Citrus limon
+
+2.1.1.3
+
+Lemon grass
+
+Cymbopogon citratus
+
+2.2.7.7
+
+Lentil
+
+Lens culinaris
+
+1.3.5
+
+Lespedeza
+
+Lespendeza spp.
+
+1.7.1.3
+
+Lettuce
+
+Lactuca sativa
+
+1.5.1.1.2
+
+Liquorice
+
+Glycyrrhiza glabra
+
+1.4.3.3
+
+Lime, sour
+
+Citrus aurantifolia
+
+2.1.1.5
+
+Lime, sweet
+
+Citrus limetta
+
+2.1.1.6
+
+Linseed (flax for oil seed)
+
+Linum usitatissimum
+
+1.4.2.0.3
+
+Litchi
+
+Litchi chinensis
+
+2.1.6.1.5
+
+Loquat
+
+Eriobotrya japonica
+
+2.1.2.5
+
+Lupine
+
+Lupinus spp.
+
+1.3.9
+
+Macadamia (Queensland nut)
+
+Macadamia spp.
+
+2.1.7.6
+
+Mace and nutmeg
+
+Myristica fragrans
+
+2.2.3.5
+
+Maguey
+
+Agave atrovirens
+
+2.2.4.6
+
+Maize (corn)
+
+Zea mays
+
+1.1.3
+
+Maize (hybrid)
+
+Zea mays
+
+1.1.3.1
+
+Maize, ordinary
+
+Zea mays
+
+1.1.3.2
+
+Maize (corn) for silage
+
+Zea mays
+
+1.7.3.1
+
+Mandarin and tangerine
+
+Citrus reticulata
+
+2.1.1.2
+
+Mangel (fodder beet)
+
+Beta vulgaris
+
+1.7.5.0.5
+
+Mango
+
+Mangifera indica
+
+2.1.6.0.8
+
+Manila hemp (abaca)
+
+Musa textilis
+
+2.2.4.1
+
+Manioc (cassava)
+
+Manihot esculenta
+
+1.2.3
+
+Maslin (mixed cereals)
+
+Mixture of Triticum spp.; Secale cereale
+
+1.1.8
+
+Medlar
+
+Mespilus germanica
+
+2.1.2.4
+
+Melon and cantaloupe
+
+Cucumis melo
+
+1.5.2.0.1
+
+Millet, proso
+
+Penicum miliaceum
+
+1.1.5.1.1
+
+Millet, bajra
+
+Pennisetum americanum
+
+1.1.5.1.2
+
+Millet broom
+
+Sorghum bicolor
+
+1.4.5.4
+
+Millet, bulrush
+
+Pennisetum americanum
+
+1.1.5.1.1
+
+Millet, finger
+
+Eleusine coracana
+
+1.1.5.1.1
+
+Millet, Italian
+
+Setaria italica
+
+1.1.5.1.2
+
+Millet, Japanese
+
+Echinochloa crusgalli
+
+1.1.5.1.2
+
+Millet, pearl
+
+Pennisetum americanum
+
+1.1.5.1.1
+
+Millet and sorghum
+
+Pennisetum americanum; Eleusine coracana; Sorghum bicolor
+
+1.1.5
+
+Mint
+
+Mentha spp.
+
+1.4.3.2
+
+Mulberry for fruit
+
+Morus spp.
+
+2.1.6.1.5
+
+Mulberry for silkworms
+
+Morus alba
+
+2.2.7.2
+
+Mushrooms
+
+Agaricus spp.; Pleurotus spp. Volvariella
+
+1.6.2.2
+
+Mustard
+
+Brassica nigra; Sinapis alba
+
+1.4.2.0.6
+
+Nectarine
+
+Prunus persica
+
+2.1.3.5
+
+New Zealand flax (formio)
+
+Phormium tenax
+
+2.2.4.4
+
+Niger seed
+
+Guizotia abyssinica
+
+1.4.2.1.1
+
+Nutmeg and mace
+
+Myristica fragrans
+
+2.2.3.5
+
+Oats, for fodder
+
+Avena spp.
+
+1.7.3.2
+
+Oats, for grain
+
+Avena spp.
+
+1.1.6
+
+Oil palm
+
+Elaeis guineensis
+
+2.2.2.2
+
+Okra
+
+Abelmoschus esculentus
+
+1.5.2.0.6
+
+Olive
+
+Olea europea
+
+2.2.2.3
+
+Onion, dry
+
+Allium cepa
+
+1.2.6
+
+Onion, green
+
+Allium cepa
+
+1.5.3.3
+
+Onion seed
+
+Allium cepa
+
+1.8.5
+
+Opium
+
+Papaver somniferum
+
+1.4.3.3
+
+Orange
+
+Citrus sinensis
+
+2.1.1.1
+
+Orange, bitter
+
+Citrus aurantium
+
+2.1.1.6
+
+Orchard grass
+
+Dactylis glomerata
+
+1.7.2.1
+
+Ornamental plants
+
+ 
+
+1.6.1.2
+
+Palm, oil
+
+Elaeis guineensis
+
+2.2.2.2
+
+Palm, sago
+
+Metroxylon spp.
+
+2.2.7.3
+
+Palmyra palm
+
+Borassus flabellifer
+
+2.2.7.4
+
+Papaya (pawpaw)
+
+Carica papaya
+
+2.1.6.0.9
+
+Parsnip
+
+Pastinaca sativa
+
+1.5.3.8
+
+Peach
+
+Prunus persica
+
+2.1.3.3
+
+Peanut (groundnut)
+
+Arachis hypogaea
+
+1.4.2.0.1
+
+Pear
+
+Pyrus communis
+
+2.1.2.2
+
+Pea, edible dry
+
+Pisum sativum
+
+1.3.3
+
+Pea, harvested green
+
+Pisum sativum
+
+1.5.4.2
+
+Pecan nut
+
+Carya illinoensis
+
+2.1.7.6
+
+Pepper, black
+
+Piper nigrum
+
+2.2.3.1
+
+Pepper, dry
+
+Capsicum spp.
+
+1.4.3.1
+
+Pepper, sweet
+
+Capsicum annuum
+
+1.5.2.0.9
+
+Persimmon
+
+Diospyros kaki; Diospyros virginiana
+
+2.1.6.1.0
+
+Pigeon pea
+
+Cajanus cajan
+
+1.3.7
+
+Pimento
+
+Capsicum annuum
+
+1.4.3.1
+
+Pineapple
+
+Ananas comosus
+
+2.1.6.1.1
+
+Pistachio nut
+
+Pistacia spp.
+
+2.1.7.6
+
+Plantain
+
+Musa paradisiaca
+
+2.1.6.1.2
+
+Plum and prune
+
+Prunus domestica
+
+2.1.3.4
+
+Pomegranate
+
+Punica granatum
+
+2.1.6.1.3
+
+Pomelo
+
+Citrus grandis
+
+2.1.1.4
+
+Poppy seed
+
+Papaver somniferum
+
+1.4.2.1.1
+
+Potato
+
+Solamum tuberosum
+
+1.2.1
+
+Potato, sweet
+
+Ipomoea batatas
+
+1.2.2
+
+Prune and plum
+
+Prunus domestica
+
+2.1.3.4
+
+Pumpkin, edible
+
+Cucurbita spp.
+
+1.5.2.0.7
+
+Pumpkin, for fodder
+
+Cucurbita spp.
+
+1.7.5.0.3
+
+Pyrethum
+
+Chrysanthemum cineraraiefolium
+
+1.4.5.3
+
+Quebracho
+
+Aspidosperma spp.
+
+2.2.5.3
+
+Queensland nut (Macadamia)
+
+Macadamia spp.
+
+2.1.7.6
+
+Quince
+
+Cydonia oblonga
+
+2.1.2.3
+
+Quinine
+
+Cinchona spp.
+
+2.2.7.5
+
+Quinoa
+
+Chenopodium quinoa
+
+1.1.9
+
+Radish
+
+Raphanus sativus (including Cochlearia armoracia)
+
+1.5.3.4
+
+Ramie and rhea
+
+Boehmeria nivea
+
+2.2.4.5
+
+Rapeseed (colza)
+
+Brassica napus
+
+1.4.2.0.5
+
+Raspberry
+
+Rubus spp.
+
+2.1.5.5
+
+Red beet
+
+Beta vulgaris
+
+1.5.3.5
+
+Red cabbage
+
+Brassica oleracea capitata
+
+1.5.1.0.4
+
+Redtop
+
+Agrostis spp.
+
+1.7.2.1
+
+Rhea and ramie
+
+Boehmeria nivea
+
+2.2.4.5
+
+Rhubarb
+
+Rheum spp.
+
+1.5.1.1.3
+
+Rice
+
+Oryza sativa; Oryza glaberrima
+
+1.1.2
+
+Rose
+
+Rose spp.
+
+2.2.6.1
+
+Rubber
+
+Hevea brasiliensis
+
+2.2.5.1
+
+Rutabaga or swede
+
+Brassica napus
+
+1.5.3.6
+
+Rye
+
+Secale cereale
+
+1.1.7
+
+Ryegrass seed
+
+Lolium spp.
+
+1.8.4
+
+Safflower seed
+
+Carthamus tinctorius
+
+1.4.2.0.9
+
+Sago palm
+
+Metroxylon spp.
+
+2.2.7.3
+
+Sainfoin
+
+Onobrychis viciifolia
+
+1.7.1.3
+
+Salad, corn
+
+Valerianella locusta
+
+1.5.1.1.2
+
+Salsify
+
+Tragopogon porrifolius
+
+1.5.3.8
+
+Sapodilla
+
+Achras sapota
+
+2.1.6.1.4
+
+Satsuma
+
+Citrus reticulata
+
+2.1.1.2
+
+Savoy cabbage
+
+Brassica ileracea capitata
+
+1.5.1.0.4
+
+Scorzonera
+
+Scorzonera hispanica
+
+1.5.3.8
+
+Sesame
+
+Sesamum indicum
+
+1.4.2.0.7
+
+Shea butter
+
+Butyrospermum paradoxum
+
+2.2.2.4
+
+Sisal
+
+Agave sislana
+
+2.2.4.2
+
+Sorghum
+
+Sorghum bicolor
+
+1.1.5.2
+
+Sorghum, broom
+
+Sorghum bicolor
+
+1.4.5.4
+
+Sorghum, durra
+
+Sorghum bicolor
+
+1.1.5.2
+
+Sorghum, Guinea corn
+
+Sorghum bicolor
+
+1.1.5.2
+
+Sorghum, jowar
+
+Sorghum bicolor
+
+1.1.5.2
+
+Sorghum, sweet
+
+Sorghum bicolor
+
+1.4.1.3
+
+Sour lime
+
+Citrus aurantifolia
+
+2.1.1.5
+
+Soybean
+
+Glycine max
+
+1.4.2.0.2
+
+Soybean hay
+
+Glycine max
+
+1.7.1.3
+
+Spelt
+
+Triticum spelta
+
+1.1.9
+
+Spinach
+
+Spinacia oleracea
+
+1.5.1.1.4
+
+Spring barley
+
+Hordeum vulgare
+
+1.1.4.2
+
+Spring rye
+
+Secale cereale
+
+1.1.7.2
+
+Spring wheat
+
+Triticum aestivum
+
+1.1.1.2
+
+Spring wheat, hard
+
+Triticum aestivum
+
+1.1.1.2.1
+
+Spring wheat, soft
+
+Triticum aestivum
+
+1.1.1.2.2
+
+Sprouts, Brussels
+
+Brassica oleracea gemmifera
+
+1.5.1.0.3
+
+Squash
+
+Cucurbita spp.
+
+1.5.2.0.8
+
+Strawberry
+
+Fragaria spp.
+
+2.1.5.6
+
+Sudan grass
+
+Sorghum bicolor Sudanense
+
+1.7.2.1
+
+Sugar beet
+
+Beta vulgaris
+
+1.4.1.2
+
+Sugar beet for fodder
+
+Beta vulgaris
+
+1.7.5.0.6
+
+Sugar beet for seed
+
+Beta vulgaris
+
+1.8.1
+
+Sugarcane for fodder
+
+Saccharum officinarum
+
+1.7.5.0.7
+
+Sugarcane for sugar
+
+Saccharum officinarum
+
+1.4.1.1
+
+Sugarcane for thatching
+
+Saccharum officinarum
+
+1.4.5.4
+
+Sunflower for fodder
+
+Helianthus annuus
+
+1.7.5.0.4
+
+Sunflower for oil seed
+
+Helianthus annuus
+
+1.4.2.0.4
+
+Sunhemp
+
+Crotalaria juncea
+
+1.4.4.5
+
+Swede (rutabaga)
+
+Brassica napus
+
+1.5.3.6
+
+Swede for fodder
+
+Brassica napus
+
+1.7.5.0.8
+
+Sweet corn
+
+Zea mays
+
+1.5.5.2
+
+Sweet lime
+
+Citrus limetta
+
+2.1.1.6
+
+Sweet pepper
+
+Capsicum annuum
+
+1.5.2.0.9
+
+Sweet potato
+
+Iopmoea batatas
+
+1.2.2
+
+Sweet sorghum
+
+Sorghum bicolor
+
+1.4.1.3
+
+Tangerine and mandarin
+
+Citrus reticulata
+
+2.1.1.2
+
+Tannia
+
+Xanthosoma sagittifolium
+
+1.2.8
+
+Tapioca (cassava)
+
+Manihot esculenta
+
+1.2.3
+
+Taro
+
+Colocasia esculenta
+
+1.2.8
+
+Tea
+
+Camellia sinensis
+
+2.2.1.3
+
+Teff
+
+Eragrostis abyssinica
+
+1.1.9
+
+Timothy
+
+Phleum pratense
+
+1.7.2.1
+
+Tobacco
+
+Nicotiana tabacum
+
+1.4.5.1
+
+Tomato
+
+Lycopersicum esculentum
+
+1.5.2.1.0
+
+Trefoil
+
+Lotus spp.
+
+1.8.6
+
+Tung tree
+
+Aleurites spp.
+
+2.2.2.4
+
+Turnip, edible
+
+Brassica rapa
+
+1.5.3.7
+
+Turnip, for fodder
+
+Brassica rapa
+
+1.7.5.0.9
+
+Urena (Congo jute)
+
+Urena lobata
+
+1.4.4.5
+
+Vanilla
+
+Vanilla planifolia
+
+2.2.3.6
+
+Vetch for grain
+
+Vicia sativa
+
+1.3.8
+
+Walnut
+
+Juglans spp.
+
+2.1.7.3
+
+Watermelon
+
+Citrullus lanatus
+
+1.5.2.1.1
+
+Wattle, black
+
+Acacia mearnsii
+
+2.2.5.2
+
+Wheat
+
+Triticum spp.
+
+1.1.1
+
+White cabbage
+
+Brassica oleracea capitata
+
+1.5.1.0.4
+
+Winter barley
+
+Hordeum spp.
+
+1.1.4.1
+
+Winter rye
+
+Secale cereale
+
+1.1.7.1
+
+Winter wheat
+
+Triticum aestivum
+
+1.1.1.1
+
+Winter wheat, hard
+
+Triticum aestivum
+
+1.1.1.1.1
+
+Winter wheat, soft
+
+Triticum aestivum
+
+1.1.1.1.2
+
+Yams
+
+Dioscorea spp.
+
+1.2.4
+
+Yerba mate
+
+Ilex paraguariensis
+
+2.2.1.5
