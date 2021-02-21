@@ -58,7 +58,7 @@ for i in temp:
     else:
         mintemp = 10*int(i.split("-")[0]) - 60
         maxtemp = 10*int(i.split("-")[1]) - 50
-        f.write(str(mintemp) + "-" + str(maxtemp) + '\n')
+        f.write(str(mintemp) + " " + str(maxtemp) + '\n')
 f.close()
 
 lines = []
