@@ -20,7 +20,8 @@ class SystemScreen extends React.Component {
           alignItems: 'center',
           height: 40 }}
           onPress={() => navigation.navigate('TemperatureSys', {
-            sysID: this.props.route.params.sysID
+            sysID: this.props.route.params.sysID,
+            plantID: this.props.route.params.plantID
           })}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Temperature</Text>
       </TouchableOpacity>
@@ -35,7 +36,8 @@ class SystemScreen extends React.Component {
           alignItems: 'center',
           height: 40 }}
           onPress={() => navigation.navigate('pHSys', {
-            sysID: this.props.route.params.sysID
+            sysID: this.props.route.params.sysID,
+            plantID: this.props.route.params.plantID
           })}>
         <Text style={{ fontSize: 20, color: '#fff' }}>pH</Text>
       </TouchableOpacity>

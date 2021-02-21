@@ -1,6 +1,7 @@
 import React from 'react'
 import { StyleSheet, Text, View } from 'react-native';
 import { LineChart, Grid, XAxis, YAxis } from 'react-native-svg-charts'
+import { Line } from 'react-native-svg'
 import scaleTime from 'd3-scale';
 
 import * as firebase from 'firebase'
@@ -43,10 +44,27 @@ export default class TemperatureGraphSys extends React.Component {
         })
         this.setState( { recentData: snapData } )
       });
+    db.collection("plants").doc(`${this.props.route.params.plantID}`).get()
+      .then(doc => {
+        console.log(doc.data())
+        this.setState( { idealValue: doc.data().temperature } )
+      })
   }
 
   render() {
     if (this.state.recentData.length) {
+      const HorizontalLine = (({ y }) => (
+        <Line
+            key={ 'zero-axis' }
+            x1={ '0%' }
+            x2={ '100%' }
+            y1={ y(this.state.idealValue) }
+            y2={ y(this.state.idealValue) }
+            stroke={ 'green' }
+            strokeDasharray={ [ 8, 8 ] }
+            strokeWidth={ 2 }
+        />
+    ))
       const contentInset = { top: 10, bottom: 10 }
       const xAxisHeight = 30
       const tempMin = 45
@@ -80,6 +98,7 @@ export default class TemperatureGraphSys extends React.Component {
               contentInset={contentInset}
             >
               <Grid />
+              <HorizontalLine />
             </LineChart>
             <XAxis
               style={{ marginHorizontal: -10, height: xAxisHeight }}

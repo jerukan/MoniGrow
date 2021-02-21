@@ -63,7 +63,10 @@ class HomeScreenSys extends React.Component {
             justifyContent: 'center',
             alignItems: 'center',
             height: 40 }}
-            onPress={() => navigation.navigate('SysScreen', {sysID: this.state.sysList[i][0]})}>
+            onPress={() => navigation.navigate('SysScreen', {
+              sysID: this.state.sysList[i][0],
+              plantID: this.state.sysList[i][1].plant_type.id
+            })}>
           <Text style={{ fontSize: 20, color: '#fff' }}>{this.state.sysList[i][1].sys_name}</Text>
         </TouchableOpacity>)
       }
