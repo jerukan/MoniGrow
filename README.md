@@ -1,5 +1,5 @@
 # MoniGrow
 
-the compendium
+Created for SD Hacks 2021.
 
-help
+Devpost link: https://devpost.com/software/monigrow
