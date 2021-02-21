@@ -49,6 +49,7 @@ function HomeScreen({ navigation }) {
       <Image source={logo} style={styles.logo}/>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'blue',
           width: 130,
           borderRadius: 4,
@@ -61,6 +62,7 @@ function HomeScreen({ navigation }) {
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'red',
           width: 130,
           borderRadius: 4,
@@ -72,6 +74,7 @@ function HomeScreen({ navigation }) {
       </TouchableOpacity>
       <TouchableOpacity
         style={{ 
+          marginTop: 30, 
           backgroundColor: 'purple',
           width: 130,
           borderRadius: 4,
@@ -86,7 +89,7 @@ function HomeScreen({ navigation }) {
   );
 }
 
-function DetailsScreen() {
+function DatabaseScreen() {
   return (
     <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
       <Text>Insert Database here :)</Text>
@@ -101,7 +104,7 @@ export default function App() {
     <NavigationContainer>
       <Stack.Navigator initialRouteName="Home">
         <Stack.Screen name="MoniGrow" component={HomeScreen} />
-        <Stack.Screen name="Database" component={DetailsScreen} />
+        <Stack.Screen name="Database" component={DatabaseScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -115,7 +118,9 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
   logo: {
-    width: 305, 
-    height: 159,
+    justifyContent: 'center',
+    alignItems: 'center',
+    width: 300, 
+    height: 100,
   },
 });
