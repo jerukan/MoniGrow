@@ -1,6 +1,9 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View, Button } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { createStackNavigator } from '@react-navigation/stack';
+import { BaseButton } from 'react-native-gesture-handler';
 
 import * as firebase from 'firebase'
 import 'firebase/firestore';
@@ -28,10 +31,21 @@ function getPlants() {
   console.log(dbh.collection("plants").get())
 }
 
-export default function App() {
+{/* Add documents to firestore
+firebase.firestore()
+  .collection('plants')
+  .add({
+    name: 'test',
+    pH: 4.5,
+  })
+  .then(() => {
+    console.log('plant added');
+  });
+*/}
+
+function HomeScreen({ navigation }) {
   return (
     <View style={styles.container}>
-      {/* MoniGrow Logo */}
       <Image source={logo} style={styles.logo}/>
       <TouchableOpacity
         style={{ 
@@ -41,7 +55,8 @@ export default function App() {
           flexDirection: 'row',
           justifyContent: 'center',
           alignItems: 'center',
-          height: 40 }}>
+          height: 40 }}
+          onPress={() => navigation.navigate('Database')}>
         <Text style={{ fontSize: 20, color: '#fff' }}>Database</Text>
       </TouchableOpacity>
       <TouchableOpacity
@@ -71,7 +86,26 @@ export default function App() {
   );
 }
 
+function DetailsScreen() {
+  return (
+    <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+      <Text>Insert Database here :)</Text>
+    </View>
+  );
+}
 
+const Stack = createStackNavigator();
+
+export default function App() {
+  return (
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Home">
+        <Stack.Screen name="MoniGrow" component={HomeScreen} />
+        <Stack.Screen name="Database" component={DetailsScreen} />
+      </Stack.Navigator>
+    </NavigationContainer>
+  );
+}
 
 const styles = StyleSheet.create({
   container: {
