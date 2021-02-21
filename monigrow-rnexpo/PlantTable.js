@@ -57,7 +57,11 @@ export default class PlantTableScreen extends React.Component {
         </View>
       );
     } else {
-      return <div>Loading...</div>;
+      return (
+        <View style={{ flex: 1, alignItems: 'center', justifyContent: 'center' }}>
+          <Text>Loading...</Text>
+        </View>
+      );
     }
   }
 }
